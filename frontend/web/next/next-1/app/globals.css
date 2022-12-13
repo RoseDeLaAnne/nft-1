@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #f5f5f5;
+}
+
+img,
+video {
+  object-fit: cover;
+}
+
+#header {
+  width: calc(100% - 16rem);
+}
